@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>Cirreum.Communications.Sms</RootNamespace>
+		<Description>An Sms Library for Twilio.</Description>
+		<PackageTags>cirreum;communications;sms;twilio</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="libphonenumber-csharp.extensions" Version="9.0.19" />
+		<PackageReference Include="Twilio" Version="7.13.6" />
+		<PackageReference Include="Cirreum.Communications.Sms" Version="1.0.103" />
+		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.2" />
+		<PackageReference Include="Cirreum.Startup" Version="1.0.103" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Twilio" />
+		<Using Include="Twilio.Types" />
+		<Using Include="Twilio.Rest.Api.V2010.Account" />
+	</ItemGroup>
+
+</Project>
