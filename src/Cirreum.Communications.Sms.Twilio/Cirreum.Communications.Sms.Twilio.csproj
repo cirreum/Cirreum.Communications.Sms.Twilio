@@ -10,8 +10,8 @@
 		<PackageReference Include="libphonenumber-csharp.extensions" Version="9.0.20" />
 		<PackageReference Include="Twilio" Version="7.13.8" />
 		<PackageReference Include="Cirreum.Communications.Sms" Version="1.0.103" />
-		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.3" />
-		<PackageReference Include="Cirreum.Startup" Version="1.0.104" />
+		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.4" />
+		<PackageReference Include="Cirreum.Startup" Version="1.0.105" />
 	</ItemGroup>
 
 	<ItemGroup>
