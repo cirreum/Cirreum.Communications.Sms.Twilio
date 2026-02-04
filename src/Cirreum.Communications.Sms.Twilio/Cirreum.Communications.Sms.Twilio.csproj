@@ -7,7 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="libphonenumber-csharp.extensions" Version="9.0.22" />
+		<PackageReference Include="libphonenumber-csharp.extensions" Version="9.0.23" />
 		<PackageReference Include="Twilio" Version="7.14.2" />
 		<PackageReference Include="Cirreum.Communications.Sms" Version="1.0.105" />
 		<PackageReference Include="Cirreum.ServiceProvider" Version="1.0.7" />
